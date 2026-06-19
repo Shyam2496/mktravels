@@ -85,6 +85,52 @@
     </script>
   </head>
   <body>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2.1Z" />
+      </symbol>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21a9 9 0 1 0-7.7-4.4L3 22l5.5-1.3A9 9 0 0 0 12 21Z" />
+        <path d="M8.8 8.7c.2 3 2.5 5.4 5.5 6.2l1.1-1.3 2.1.9c-.4 1.3-1.4 2-2.8 2-3.8-.2-7-3.3-7.3-7.1 0-1.4.7-2.4 2-2.8l.9 2.1-1.5 1Z" />
+      </symbol>
+      <symbol id="icon-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12 7 6h10l2 6" />
+        <path d="M3 12h18v6H3z" />
+        <path d="M7 18v2" />
+        <path d="M17 18v2" />
+        <path d="M7.5 15h.1" />
+        <path d="M16.5 15h.1" />
+      </symbol>
+      <symbol id="icon-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.5 13.5 3 11l1-2 7.5.5L15 3l2 1-1.5 7 5.5 3-1.2 2.2-6.1-1.4L10 21l-2-1 2.5-6.5Z" />
+      </symbol>
+      <symbol id="icon-route" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="6" cy="6" r="3" />
+        <circle cx="18" cy="18" r="3" />
+        <path d="M9 6h3.5A3.5 3.5 0 0 1 16 9.5v0A3.5 3.5 0 0 1 12.5 13H11a3 3 0 0 0 0 6h4" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3 20 6v5.5c0 4.8-3.2 8.4-8 9.5-4.8-1.1-8-4.7-8-9.5V6l8-3Z" />
+        <path d="m8.8 12 2.1 2.1 4.4-4.6" />
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7v5l3.5 2" />
+      </symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3 14.2 9.2 21 12l-6.8 2.8L12 21l-2.2-6.2L3 12l6.8-2.8L12 3Z" />
+      </symbol>
+      <symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="8" r="3" />
+        <path d="M3.5 20a5.5 5.5 0 0 1 11 0" />
+        <path d="M16 11a3 3 0 1 0-1-5.8" />
+        <path d="M17 14.5a5 5 0 0 1 3.5 5.5" />
+      </symbol>
+      <symbol id="icon-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 7h12l1 14H5L6 7Z" />
+        <path d="M9 7V5a3 3 0 0 1 6 0v2" />
+      </symbol>
+    </svg>
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="எம் கே டிராவல்ஸ் முகப்பு">
         <span class="brand-mark">MK</span>
@@ -128,18 +174,20 @@
 
           <div class="hero-actions" aria-label="முக்கிய புக்கிங் செயல்கள்">
             <a class="btn btn-primary" href="tel:+919999999999" data-track="hero-call">
+              <svg class="ui-icon" aria-hidden="true"><use href="#icon-phone" /></svg>
               இப்போது அழைக்கவும்
               <span>+91 99999 99999</span>
             </a>
             <a class="btn btn-secondary" href="https://wa.me/919999999999?text=%E0%AE%B5%E0%AF%87%E0%AE%B2%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%9F%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%B8%E0%AE%BF%20%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AF%8D%20%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%AF%20%E0%AE%B5%E0%AF%87%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%AE%E0%AF%8D" data-track="hero-whatsapp">
+              <svg class="ui-icon" aria-hidden="true"><use href="#icon-whatsapp" /></svg>
               வாட்ஸ்அப் புக்கிங்
             </a>
           </div>
 
           <ul class="quick-facts" aria-label="முக்கிய சேவை விவரங்கள்">
-            <li><strong>விரைவான பிக்கப்</strong><span>வேலூர் நகரம் &amp; காட்பாடி</span></li>
-            <li><strong>ஏர்போர்ட் பயணங்கள்</strong><span>சென்னை &amp; பெங்களூர்</span></li>
-            <li><strong>சுத்தமான கார்கள்</strong><span>Sedan, SUV, Innova</span></li>
+            <li><svg class="feature-icon" aria-hidden="true"><use href="#icon-clock" /></svg><strong>விரைவான பிக்கப்</strong><span>வேலூர் நகரம் &amp; காட்பாடி</span></li>
+            <li><svg class="feature-icon" aria-hidden="true"><use href="#icon-plane" /></svg><strong>ஏர்போர்ட் பயணங்கள்</strong><span>சென்னை &amp; பெங்களூர்</span></li>
+            <li><svg class="feature-icon" aria-hidden="true"><use href="#icon-car" /></svg><strong>சுத்தமான கார்கள்</strong><span>Sedan, SUV, Innova</span></li>
           </ul>
         </div>
 
@@ -189,18 +237,22 @@
 
       <section class="instant-info" aria-label="உடனடி புக்கிங் தகவல்">
         <article>
+          <svg class="info-icon" aria-hidden="true"><use href="#icon-phone" /></svg>
           <span>வேலூர் கால் டாக்ஸி</span>
           <strong>ஒரு நிமிடத்திற்குள் போனில் புக் செய்யுங்கள்</strong>
         </article>
         <article>
+          <svg class="info-icon" aria-hidden="true"><use href="#icon-plane" /></svg>
           <span>ஏர்போர்ட் டாக்ஸி</span>
           <strong>சென்னை &amp; பெங்களூர் டிராப்</strong>
         </article>
         <article>
+          <svg class="info-icon" aria-hidden="true"><use href="#icon-route" /></svg>
           <span>அவுட்ஸ்டேஷன்</span>
           <strong>ஒன் வே மற்றும் ரவுண்ட் ட்ரிப் கார்கள்</strong>
         </article>
         <article>
+          <svg class="info-icon" aria-hidden="true"><use href="#icon-users" /></svg>
           <span>உதவி</span>
           <strong>தமிழ் மற்றும் ஆங்கில உதவி</strong>
         </article>
@@ -289,22 +341,22 @@
 
         <div class="service-grid">
           <article class="service-card">
-            <span class="icon">01</span>
+            <span class="icon"><svg aria-hidden="true"><use href="#icon-car" /></svg></span>
             <h3>லோக்கல் டாக்ஸி</h3>
             <p>வேலூர், காட்பாடி, CMC, VIT, சத்துவாச்சாரி மற்றும் அருகிலுள்ள பகுதிகளுக்கான பயணங்கள்.</p>
           </article>
           <article class="service-card">
-            <span class="icon">02</span>
+            <span class="icon"><svg aria-hidden="true"><use href="#icon-route" /></svg></span>
             <h3>அவுட்ஸ்டேஷன் கார்</h3>
             <p>நகரங்களுக்கு இடையிலான பயணம், கோவில் பயணம், குடும்ப பயணம் மற்றும் தொழில் பயணங்களுக்கு Sedan, SUV அல்லது Innova புக் செய்யுங்கள்.</p>
           </article>
           <article class="service-card">
-            <span class="icon">03</span>
+            <span class="icon"><svg aria-hidden="true"><use href="#icon-plane" /></svg></span>
             <h3>ஏர்போர்ட் பிக்கப் &amp; டிராப்</h3>
             <p>வேலூரில் இருந்து சென்னை ஏர்போர்ட், பெங்களூர் ஏர்போர்ட் மற்றும் ரிட்டர்ன் பிக்கப்புகளுக்கு நம்பகமான சேவை.</p>
           </article>
           <article class="service-card">
-            <span class="icon">04</span>
+            <span class="icon"><svg aria-hidden="true"><use href="#icon-bag" /></svg></span>
             <h3>ஒன் வே டாக்ஸி</h3>
             <p>ஒரு வழி பயணம் போதுமான போது முழு ரவுண்ட் ட்ரிப் புக் செய்யாமல் தேவையான பயணத்திற்கே கட்டணம் செலுத்துங்கள்.</p>
           </article>
@@ -318,12 +370,12 @@
         </div>
 
         <div class="route-list">
-          <a href="tel:+919999999999" data-track="route-call"><span>வேலூர் டு சென்னை ஏர்போர்ட்</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
-          <a href="tel:+919999999999" data-track="route-call"><span>வேலூர் டு பெங்களூர் ஏர்போர்ட்</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
-          <a href="tel:+919999999999" data-track="route-call"><span>வேலூர் டு திருப்பதி</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
-          <a href="tel:+919999999999" data-track="route-call"><span>வேலூர் டு புதுச்சேரி</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
-          <a href="tel:+919999999999" data-track="route-call"><span>CMC வேலூர் பிக்கப்/டிராப்</span><strong>இப்போது அழைக்கவும்</strong></a>
-          <a href="tel:+919999999999" data-track="route-call"><span>VIT வேலூர் பிக்கப்/டிராப்</span><strong>இப்போது அழைக்கவும்</strong></a>
+          <a href="tel:+919999999999" data-track="route-call"><svg class="route-icon" aria-hidden="true"><use href="#icon-plane" /></svg><span>வேலூர் டு சென்னை ஏர்போர்ட்</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
+          <a href="tel:+919999999999" data-track="route-call"><svg class="route-icon" aria-hidden="true"><use href="#icon-plane" /></svg><span>வேலூர் டு பெங்களூர் ஏர்போர்ட்</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
+          <a href="tel:+919999999999" data-track="route-call"><svg class="route-icon" aria-hidden="true"><use href="#icon-route" /></svg><span>வேலூர் டு திருப்பதி</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
+          <a href="tel:+919999999999" data-track="route-call"><svg class="route-icon" aria-hidden="true"><use href="#icon-route" /></svg><span>வேலூர் டு புதுச்சேரி</span><strong>கட்டணம் கேட்க அழைக்கவும்</strong></a>
+          <a href="tel:+919999999999" data-track="route-call"><svg class="route-icon" aria-hidden="true"><use href="#icon-shield" /></svg><span>CMC வேலூர் பிக்கப்/டிராப்</span><strong>இப்போது அழைக்கவும்</strong></a>
+          <a href="tel:+919999999999" data-track="route-call"><svg class="route-icon" aria-hidden="true"><use href="#icon-bag" /></svg><span>VIT வேலூர் பிக்கப்/டிராப்</span><strong>இப்போது அழைக்கவும்</strong></a>
         </div>
       </section>
 
@@ -336,16 +388,19 @@
 
         <div class="fleet-grid">
           <article>
+            <svg class="fleet-icon" aria-hidden="true"><use href="#icon-car" /></svg>
             <h3>Sedan</h3>
             <p>சிட்டி ரைடு, தனிப்பயணி மற்றும் சிறிய குடும்பங்களுக்கு ஏற்றது.</p>
             <span>Dzire, Etios அல்லது அதே வகை</span>
           </article>
           <article>
+            <svg class="fleet-icon" aria-hidden="true"><use href="#icon-bag" /></svg>
             <h3>SUV</h3>
             <p>லக்கேஜ், ஹைவே பயணம் மற்றும் குடும்ப பயணங்களுக்கு வசதியானது.</p>
             <span>Ertiga, Xylo அல்லது அதே வகை</span>
           </article>
           <article>
+            <svg class="fleet-icon" aria-hidden="true"><use href="#icon-users" /></svg>
             <h3>Innova</h3>
             <p>ஏர்போர்ட் பயணம், மூத்தவர்கள் மற்றும் நீண்ட தூர வசதிக்காக பரிந்துரைக்கப்படுகிறது.</p>
             <span>Innova அல்லது அதே வகை</span>
@@ -354,11 +409,12 @@
       </section>
 
       <section id="fares" class="fare-band">
+        <svg class="band-icon" aria-hidden="true"><use href="#icon-phone" /></svg>
         <div>
           <p class="eyebrow">கட்டண மதிப்பீடு</p>
           <h2>பிக்கப் இடம், செல்லும் இடம் மற்றும் நேரத்தை சொல்லுங்கள். சிறந்த கட்டணத்தை தெரிவிக்கிறோம்.</h2>
         </div>
-        <a class="btn btn-light" href="tel:+919999999999" data-track="fare-call">அழைத்து கட்டணம் கேட்கவும்</a>
+        <a class="btn btn-light" href="tel:+919999999999" data-track="fare-call"><svg class="ui-icon" aria-hidden="true"><use href="#icon-phone" /></svg>அழைத்து கட்டணம் கேட்கவும்</a>
       </section>
 
       <section class="why section-pad">
@@ -367,10 +423,10 @@
           <h2>குழப்பமில்லாத தொழில்முறை பயண உதவி.</h2>
         </div>
         <div class="why-grid">
-          <div><strong>நேரடி புக்கிங்</strong><span>ஆப் டவுன்லோடு அல்லது நீளமான படிவங்கள் தேவையில்லை.</span></div>
-          <div><strong>தெளிவான பயண விவரம்</strong><span>பிக்கப் நேரம், கார் வகை மற்றும் கட்டணம் பயணத்திற்கு முன் உறுதி செய்யப்படும்.</span></div>
-          <div><strong>லோக்கல் கவரேஜ்</strong><span>வேலூர், காட்பாடி, CMC, VIT மற்றும் அருகிலுள்ள பிக்கப் பாயிண்ட்கள்.</span></div>
-          <div><strong>பயணத்திற்கு தயாரான கார்கள்</strong><span>சிட்டி மற்றும் ஹைவே பயணங்களுக்கு ஏற்ற சுத்தமான வாகனங்கள்.</span></div>
+          <div><svg class="why-icon" aria-hidden="true"><use href="#icon-phone" /></svg><strong>நேரடி புக்கிங்</strong><span>ஆப் டவுன்லோடு அல்லது நீளமான படிவங்கள் தேவையில்லை.</span></div>
+          <div><svg class="why-icon" aria-hidden="true"><use href="#icon-shield" /></svg><strong>தெளிவான பயண விவரம்</strong><span>பிக்கப் நேரம், கார் வகை மற்றும் கட்டணம் பயணத்திற்கு முன் உறுதி செய்யப்படும்.</span></div>
+          <div><svg class="why-icon" aria-hidden="true"><use href="#icon-route" /></svg><strong>லோக்கல் கவரேஜ்</strong><span>வேலூர், காட்பாடி, CMC, VIT மற்றும் அருகிலுள்ள பிக்கப் பாயிண்ட்கள்.</span></div>
+          <div><svg class="why-icon" aria-hidden="true"><use href="#icon-spark" /></svg><strong>பயணத்திற்கு தயாரான கார்கள்</strong><span>சிட்டி மற்றும் ஹைவே பயணங்களுக்கு ஏற்ற சுத்தமான வாகனங்கள்.</span></div>
         </div>
       </section>
 
@@ -407,8 +463,8 @@
             <p>விரைவான உறுதிப்படுத்தலுக்காக பிக்கப் இடம், செல்லும் இடம், தேதி மற்றும் நேரத்தை தயார் வைத்திருக்கவும்.</p>
           </div>
           <div class="contact-actions">
-            <a class="btn btn-primary" href="tel:+919999999999" data-track="contact-call">அழைக்கவும் +91 99999 99999</a>
-            <a class="btn btn-secondary" href="https://wa.me/919999999999?text=%E0%AE%B5%E0%AF%87%E0%AE%B2%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%9F%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%B8%E0%AE%BF%20%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AF%8D%20%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%AF%20%E0%AE%B5%E0%AF%87%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%AE%E0%AF%8D" data-track="contact-whatsapp">வாட்ஸ்அப்பில் மெசேஜ் செய்யவும்</a>
+            <a class="btn btn-primary" href="tel:+919999999999" data-track="contact-call"><svg class="ui-icon" aria-hidden="true"><use href="#icon-phone" /></svg>அழைக்கவும் +91 99999 99999</a>
+            <a class="btn btn-secondary" href="https://wa.me/919999999999?text=%E0%AE%B5%E0%AF%87%E0%AE%B2%E0%AF%82%E0%AE%B0%E0%AE%BF%E0%AE%B2%E0%AF%8D%20%E0%AE%9F%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%B8%E0%AE%BF%20%E0%AE%AA%E0%AF%81%E0%AE%95%E0%AF%8D%20%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%AF%20%E0%AE%B5%E0%AF%87%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%AE%E0%AF%8D" data-track="contact-whatsapp"><svg class="ui-icon" aria-hidden="true"><use href="#icon-whatsapp" /></svg>வாட்ஸ்அப்பில் மெசேஜ் செய்யவும்</a>
           </div>
         </div>
       </section>
