@@ -96,8 +96,8 @@ button {
 }
 
 .ui-icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 
 .site-header {
@@ -336,7 +336,7 @@ h3 {
   position: relative;
   overflow: hidden;
   min-height: 92px;
-  padding: 16px 16px 16px 70px;
+  padding: 16px 16px 16px 62px;
   background:
     radial-gradient(circle at 100% 0, rgba(22, 128, 119, 0.14), transparent 34%),
     var(--white);
@@ -362,9 +362,9 @@ h3 {
   position: absolute;
   top: 16px;
   left: 16px;
-  width: 38px;
-  height: 38px;
-  padding: 9px;
+  width: 32px;
+  height: 32px;
+  padding: 7px;
   color: var(--white);
   background: var(--brand-2);
   border-radius: 8px;
@@ -483,7 +483,7 @@ h3 {
 .instant-info article {
   position: relative;
   min-height: 128px;
-  padding: 24px 22px 24px 82px;
+  padding: 24px 22px 24px 70px;
   color: var(--ink);
   border-right: 1px solid var(--line);
   background: var(--green-soft);
@@ -509,9 +509,9 @@ h3 {
   position: absolute;
   top: 24px;
   left: 22px;
-  width: 42px;
-  height: 42px;
-  padding: 10px;
+  width: 34px;
+  height: 34px;
+  padding: 8px;
   color: var(--white);
   background: var(--brand);
   border-radius: 8px;
@@ -736,8 +736,8 @@ h3 {
   display: inline-grid;
   position: relative;
   z-index: 1;
-  width: 54px;
-  height: 54px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   margin-bottom: 22px;
   color: var(--white);
@@ -760,8 +760,8 @@ h3 {
 }
 
 .icon svg {
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
 }
 
 .service-card h3,
@@ -782,7 +782,7 @@ h3 {
 
 .route-list a {
   display: grid;
-  grid-template-columns: 46px minmax(0, 1fr) auto;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
   align-items: center;
   gap: 14px;
   min-height: 70px;
@@ -821,9 +821,9 @@ h3 {
 }
 
 .route-icon {
-  width: 42px;
-  height: 42px;
-  padding: 10px;
+  width: 34px;
+  height: 34px;
+  padding: 8px;
   color: var(--white);
   background: var(--brand-2);
   border-radius: 8px;
@@ -871,9 +871,9 @@ h3 {
 }
 
 .fleet-icon {
-  width: 62px;
-  height: 62px;
-  padding: 13px;
+  width: 48px;
+  height: 48px;
+  padding: 11px;
   margin-bottom: 22px;
   color: var(--white);
   background: var(--brand);
@@ -937,9 +937,9 @@ h3 {
 }
 
 .band-icon {
-  width: 74px;
-  height: 74px;
-  padding: 18px;
+  width: 56px;
+  height: 56px;
+  padding: 13px;
   color: #172217;
   background: var(--accent);
   border-radius: 8px;
@@ -964,7 +964,7 @@ h3 {
   position: relative;
   overflow: hidden;
   min-height: 142px;
-  padding: 22px 22px 22px 82px;
+  padding: 22px 22px 22px 70px;
   border-top: 4px solid var(--brand-2);
   box-shadow: 0 10px 24px rgba(19, 39, 45, 0.06);
 }
@@ -990,9 +990,9 @@ h3 {
   position: absolute;
   top: 22px;
   left: 22px;
-  width: 42px;
-  height: 42px;
-  padding: 10px;
+  width: 34px;
+  height: 34px;
+  padding: 8px;
   color: var(--white);
   background: var(--brand-2);
   border-radius: 8px;
@@ -1278,7 +1278,7 @@ h3 {
   }
 
   .route-list a {
-    grid-template-columns: 42px minmax(0, 1fr);
+    grid-template-columns: 36px minmax(0, 1fr);
   }
 
   .route-list strong {
@@ -1301,9 +1301,9 @@ h3 {
   }
 
   .band-icon {
-    width: 58px;
-    height: 58px;
-    padding: 14px;
+    width: 48px;
+    height: 48px;
+    padding: 11px;
     margin-bottom: 18px;
   }
 
